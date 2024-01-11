@@ -34,6 +34,8 @@ def conversation(answer):
     elif answer == "good bye" or answer == "close" or answer == "exit":
         print("Good bye!")
         chat = False
+    else:
+        print("I don't understand you. Please, try again.")
     return chat
 
 
